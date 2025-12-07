@@ -132,7 +132,4 @@ Edit `terragrunt.hcl` to configure:
 
 See `VERIFICATION_STEPS.md` for verification and troubleshooting steps.
 
-## License
-
-[Your License Here]
-
+Ayush Bhoyar
