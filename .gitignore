@@ -1,0 +1,40 @@
+# Terragrunt cache directories
+.terragrunt-cache/
+**/.terragrunt-cache/
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
+
+# Environment variables and secrets
+.env
+*.pem
+*.key
+secrets/
+
+# Old/backup files
+old_root_terraform_files/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
